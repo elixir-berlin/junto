@@ -31,7 +31,7 @@ RUN cd assets && \
 RUN mix release
 
 # Final image
-FROM alpine:3.12.0
+FROM alpine:3.14.0
 
 RUN apk add --update ncurses-libs && \
     rm -rf /var/cache/apk/*
