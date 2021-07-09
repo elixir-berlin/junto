@@ -1,4 +1,4 @@
-FROM elixir:1.10.4
+FROM elixir:1.12.2
 
 # Install pg client for db setup
 RUN apt-get -qqq update && \

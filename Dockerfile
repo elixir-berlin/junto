@@ -1,5 +1,5 @@
 # Build image
-FROM elixir:1.10.4-alpine AS build
+FROM elixir:1.12.2-alpine AS build
 
 RUN apk add --update \
     git \
